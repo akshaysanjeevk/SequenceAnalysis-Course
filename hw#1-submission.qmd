@@ -1,3 +1,16 @@
+---
+title: "Sequance Analysis Assignment#1"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+# Greedy Motif Search 
+
+Functions written are listed below.
+- Bulding the position weight matrix: 
+```python
 from Bio import SeqIO
 import numpy as np
 import math
@@ -21,7 +34,9 @@ def profile(DNA, k, pos, log_odd=True):
     else: 
         W2 = W
     return W2
-
+```
+- Computing the log-likelihood ratio of a given sequence `s`. 
+```python
 def llr(profile, s):
     ref = {
         'A':0,
@@ -33,7 +48,9 @@ def llr(profile, s):
     for i in range(len(s)):
         llratio += profile[ref[s[i]], i]
     return llratio
-
+```
+- Finding most probable positions in a set of given sequences `DNA`, based on a postion weight matrix `profile`:
+```python
 def motifpos(profile, DNA):
     N = len(DNA)
     k = profile.shape[1]
@@ -46,8 +63,10 @@ def motifpos(profile, DNA):
                 maxllr = llrval
                 pos[i] = j
     return pos  
-
+```
+- This function brings together all the above written functions and executes a greedy search for motifs in the given sequences, `DNA` for `k`-mer in it.
 def GreedySearch(DNA, k):
+```python
     N = len(DNA)
     pos = np.array([np.random.randint(0, len(DNA[i]) - k) for i in range(N)])
     while True:
@@ -57,3 +76,25 @@ def GreedySearch(DNA, k):
         if np.array_equal(old_pos, pos):
             break
     return pos
+```
+Loding data and computing k-mers from the given datasets:
+1. `synth_50_strong.fa`
+```python
+strong = [str(record.seq) for record in SeqIO.parse("synth_50_strong.fa", "fasta")]
+
+k=15
+strong_pos = GreedySearch(strong, k)
+print(f"{k}-mers for 'synth_50_strong.fa':")
+for i in range(len(strong)):
+    print(strong[i][strong_pos[i]:strong_pos[i]+k])
+```
+1. `synth_50_weak.fa`
+```python
+weak = [str(record.seq) for record in SeqIO.parse("synth_50_weak.fa", "fasta")]
+weak_pos = GreedySearch(weak, k)
+print(f"{k}-mers for 'synth_50_weak.fa':") 
+for i in range(len(weak)):
+    print(weak[i][weak_pos[i]:weak_pos[i]+k])
+```
+
+
