@@ -104,7 +104,7 @@
         "    print(weak[i][weak_pos[i]:weak_pos[i]+k])\n",
         "```\n"
       ],
-      "id": "f100d502"
+      "id": "78fca44f"
     }
   ],
   "metadata": {
