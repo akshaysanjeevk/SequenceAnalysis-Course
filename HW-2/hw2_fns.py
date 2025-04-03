@@ -26,16 +26,15 @@ def hmm_gen(S, T, a, e):
 
     
 def Viterbi(x, S, T, a, e):#x is obs, h is hid
-    T = np.arange(T)
     obsstates = {S[0]: 0, S[1] : 1}
-    v = np.zeros((len(x), len(T)-1))
+    v = np.zeros((len(x), T-1))
     v[:, 0] = 0
     v[0, :] = a[0, 1:]
     path = []
     for xi in range(1,len(x)):
-        for hi in range(len(T)-1):
+        for hi in range(T-1):
             k = []
-            for hi2 in range(len(T)-1):
+            for hi2 in range(T-1):
                 p_trans = a[hi, hi2]
                 p_emssn = e[hi-1, obsstates[x[xi]]]
                 k.append(v[xi-1, hi2]*p_trans*p_emssn)
@@ -54,9 +53,9 @@ def match(pi1, pi2):
 def Forward(x, S, T, a, e):
     T = np.arange(T)
     obsstates = {S[0]: 0, S[1] : 1}
-    v = np.zeros((len(x), len(T)-1))
-    v[:, 0] = 0
-    v[0, :] = a[0, 1:]
+    alpha = np.zeros((len(x), len(T)-1))
+    alpha[:, 0] = 0
+    alpha[0, :] = a[0, 1:]
     path = []
     for xi in range(1,len(x)):
         for hi in range(len(T)-1):
@@ -64,6 +63,26 @@ def Forward(x, S, T, a, e):
             for hi2 in range(len(T)-1):
                 p_trans = a[hi, hi2]
                 p_emssn = e[hi-1, obsstates[x[xi]]]
-                k.append(v[xi-1, hi2]*p_trans*p_emssn)
-            v[xi, hi] = np.sum(k)
-        path.append(np.argmax(v[xi, :]))
+                k.append(alpha[xi-1, hi2]*p_trans*p_emssn)
+            alpha[xi, hi] = np.sum(k)
+    likelihood =  np.sum(alpha[-1, :])
+    return likelihood
+
+# def Backward(x, S, T, a, e):
+#     T = np.arange(T)
+#     obsstates = {S[0]: 0, S[1] : 1}
+#     alpha = np.zeros((len(x), len(T)-1))
+#     alpha[:, 0] = 0
+#     alpha[0, :] = a[0, 1:]
+#     path = []
+#     for xi in range(1,len(x)):
+#         for hi in range(len(T)-1):
+#             k = []
+#             for hi2 in range(len(T)-1):
+#                 p_trans = a[hi, hi2]
+#                 p_emssn = e[hi-1, obsstates[x[xi]]]
+#                 k.append(alpha[xi-1, hi2]*p_trans*p_emssn)
+#             alpha[xi, hi] = np.sum(k)
+#     likelihood =  np.sum(alpha[-1, :])
+#     return likelihood
+
