@@ -47,7 +47,7 @@ def match(pi1, pi2):
             score+=1
     return score/len(pi1)
 
-def Forward(x, S, T, a, e):
+def Forward(x, S, T, a, e, matrix=False):
     obs_index = {obs: i for i, obs in enumerate(S)}
     alpha = np.zeros((len(x), T-1))
     for i in range(T-1):
@@ -57,9 +57,12 @@ def Forward(x, S, T, a, e):
         for hi in range(T-1):
             alpha[xi, hi] = np.sum(
                 alpha[xi-1, :] * a[1:, hi+1] * e[hi, obs_idx])
-    return np.sum(alpha[-1, :])
+    if matrix == False:
+        return np.sum(alpha[-1, :])
+    if matrix == True:
+        return alpha
 
-def Backward(x, S, T, a, e):
+def Backward(x, S, T, a, e, matrix=False):
     obs_index = {s: i for i, s in enumerate(S)}
     N = T - 1
     beta = np.zeros((len(x), T))
@@ -69,5 +72,19 @@ def Backward(x, S, T, a, e):
             beta[xi, hi] = np.sum(
                 beta[xi+1, 1:] * a[hi, 1:] * e[:, obs_index[x[xi+1]]])
     likelihood = np.sum(a[0, 1:] * e[:, obs_index[x[0]]] * beta[0, 1:])
-    return likelihood
+    if matrix == False:
+        return likelihood
+    if matrix == True:
+        return beta
 
+
+def ForwardBackward(x, S, T, a, e):
+    alpha = Forward(x, S, T, a, e, matrix=True)
+    beta = Backward(x, S, T, a, e, matrix=True)
+
+    posterior = np.zeros_like(alpha)
+    for xi in range(len(x)):
+        ab = alpha[xi] * beta[xi, 1:]
+        posterior[xi] = ab / np.sum(ab)
+    
+    return posterior
