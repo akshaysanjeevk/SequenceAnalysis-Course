@@ -14,7 +14,7 @@ to the human genome}
     \maketitle
 \end{frame}
 
-
+\section{Introduction}
 \begin{frame}{We are in 2009}
 
 \end{frame}
@@ -27,6 +27,7 @@ to the human genome}
     \end{itemize}
 \end{frame}
 
+\section{Background}
 \begin{frame}{Burrows- Wheeler Transform: Forward Transform}
     Let $T=\texttt{BANANA}$. BWT$(T)$ will be:
     \[
@@ -109,8 +110,9 @@ to the human genome}
     
 \end{frame}
 
-\begin{frame}{EXACTMATCH algorithams}
-    Pattern to find is $P = \texttt{NAN}$. $\Sigma=B_1A_1N_1A_2N_2A_3$
+\begin{frame}{EXACTMATCH algoritham}
+    $\Sigma=\texttt{B}_1\texttt{A}_1\texttt{N}_1\texttt{A}_2\texttt{N}_2\texttt{A}_3$.\\
+    Pattern to find, $P = \texttt{NAN}$\\
     \begin{center}
         \begin{tikzpicture}
         % Horizontal distance = vertical height = 6 units
@@ -150,23 +152,37 @@ to the human genome}
         \node (ir6) at (\hsep+1,.5) {2};
         \node (ir7) at (\hsep+1,0) {3};
         \pause 
-        \only<3>{\node[text=red] (top) at (-1.55, 3) {top$\rightarrow$};}
-        \only<3>{\node[text=red] (bot) at (-1.55, 0) {bot$\rightarrow$};}
+        \only<3>{\node[text=red] (top) at (-3, 3) {top$\rightarrow$};}
+        \only<3>{\node[text=red] (bot) at (-3, 0) {bot$\rightarrow$};}
 
-        \only<4>{\node[text=red] (top) at (-2, 0.5) {\texttt{N$_1$}$\rightarrow$};}
-        \only<4>{\node[text=red] (bot) at (-2, 0) {\texttt{N$_2$}$\rightarrow$};}
+        \only<4>{\node[text=red] (top) at (-3, 0.5) {\texttt{N$_1$}$\rightarrow$};}
+        \only<4>{\node[text=red] (bot) at (-3, 0) {\texttt{N$_2$}$\rightarrow$};}
 
-        \only<5>{\node[text=red] (top) at (-2.5, 2) {\texttt{A$_2$N$_1$}$\rightarrow$};}
-        \only<5>{\node[text=red] (bot) at (-2.5, 1.5) {\texttt{A$_3$N$_2$}$\rightarrow$};}
+        \only<5>{\node[text=red] (top) at (-3, 2) {\texttt{A$_2$N$_1$}$\rightarrow$};}
+        \only<5>{\node[text=red] (bot) at (-3, 1.5) {\texttt{A$_3$N$_2$}$\rightarrow$};}
         
-        
-        \only<6>{\node[text=red] (top) at (-3, 0) {\texttt{N$_3$A$_2$N$_1$}$\rightarrow$};}
+        \only<6>{\node[text=red] (top) at (-3, 0) {\texttt{N$_2$A$_2$N$_1$}$\rightarrow$};}
         \only<6>{\node[text=black] (bot) at (-3, 1) {\texttt{B$_1$A$_3$N$_2$}$\rightarrow$};}
-        
-    \end{tikzpicture}
-    \end{center}
-    % \only<+-> $P$ is 
+        \end{tikzpicture}
+    \end{center} 
+\end{frame}
+
+\section{Bowtie algorithm}
+\begin{frame}{Why and What is Bowtie?}
+    \begin{itemize}
+        \item Exactmatching performs poorly for DNA short read alignment because of mismatches from 
+        sequencing errors and other reasons.
+        \item New alignment algorithm which conducts a backtracking search to
+        quickly find alignments that satisfy a specified alignment policy. 
+        \item Each character in a read has a numeric quality value($m_i$), with
+        lower values indicating a higher likelihood of a sequencing
+        error. 
+        \item We allows a limited number of mismatches, while trying to minimize $\sum_i m_i$, 
+        where $i$ spans over all mismatches. 
+    \end{itemize} 
+    Bowtie is a quality-awarer, greedy, randomized, depth-first search through the
+    space of possible alignments.
 \end{frame}
 
 
-    \end{document}
+\end{document}
