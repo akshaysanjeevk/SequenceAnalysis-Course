@@ -1,6 +1,10 @@
 \documentclass[mathserif]{beamer}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
 \usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{arrows.meta, positioning, decorations.pathreplacing}
 
 \title{Ultrafast and memory-efficient alignment of short DNA sequences
 to the human genome}
@@ -168,9 +172,9 @@ to the human genome}
 \end{frame}
 
 \section{Bowtie algorithm}
-\begin{frame}{Why and What is Bowtie?}
+\begin{frame}{Exact vs Inexact matching}
     \begin{itemize}
-        \item Exactmatching performs poorly for DNA short read alignment because of mismatches from 
+        \item Exact matching performs poorly for DNA short read alignment because of mismatches from 
         sequencing errors and other reasons.
         \item New alignment algorithm which conducts a backtracking search to
         quickly find alignments that satisfy a specified alignment policy. 
@@ -180,9 +184,98 @@ to the human genome}
         \item We allows a limited number of mismatches, while trying to minimize $\sum_i m_i$, 
         where $i$ spans over all mismatches. 
     \end{itemize} 
-    Bowtie is a quality-awarer, greedy, randomized, depth-first search through the
+    Bowtie is a quality-aware, greedy, randomized, depth-first search through the
     space of possible alignments.
 \end{frame}
 
+\begin{frame}{Excessive backtracking}
+    If a particular suffix doesn't occur in the 
+    text, the algorithm can backtrack. Backtracking involves \textbf{potentially substituting 
+    a different base at an already-matched query position, introducing a mismatch, and 
+    then resuming the search.}\\
+\vspace{5mm}
+    Excessive backtracking occurs when too many alternative paths are explored during the alignment 
+    process due to mismatches. Bowtie uses double indexing to deal with this problem.
+    Excessive backtracking is significant only when a read has many low-quality 
+    positions and does not align or aligns poorly to the reference.
+\end{frame}
 
+\begin{frame}{Mismatch cases}
+\begin{itemize}
+    \item The high-quality base-pairs at 3' is called Seed(default: 28). 
+    \item Seed is further divided into hi-half and lo-half each with 14bps.
+    \item  Assuming the default mismatches(2), a reportable alignment can occur in 
+    4 different ways. 
+    \begin{enumerate}
+        \item No mismatches in seed
+        \item No mismatches in hi-half, one or two mismatches in lo-half
+        \item No mismatches in lo-half, one or two mismatches in hi-half
+        \item O ne mismatch in hi-half, one mismatch in lo-half
+    \end{enumerate} 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Phased Maq-like search}
+    Bowtie uses a 3 phase approach:
+    \begin{columns}
+        \begin{column}{.3\textwidth}
+        \begin{figure}
+            \includegraphics[scale=.25]{media/fig3.png}
+        \end{figure}
+        \end{column}
+        \begin{column}{.7\textwidth}
+            \begin{enumerate}
+            \item Phase 1 uses the mirror index and invokes the
+            aligner to find alignments for cases 1 and 2. 
+            \item Phases 2 and 3 cooperate to find alignments for case 3. Phase 2 finds partial
+            alignments with mismatches only in the hi-half and phase 3
+            attempts to extend those partial alignments into full align
+            ments. Finally, phase 3 invokes the aligner to find alignments
+            for case 4.
+            \end{enumerate}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\section{Results}
+\begin{frame}{Perfomance results}
+\begin{figure}
+    \includegraphics[width=\textwidth]{media/tab1.png}
+\end{figure}
+\pause
+\begin{figure}
+    \includegraphics[width=\textwidth]{media/tab2.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Perfomance Results-II}
+    \begin{figure}
+        \includegraphics[width=\textwidth]{media/tab3.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Perfomance Results-III}
+    \begin{figure}
+        \includegraphics[width=\textwidth]{media/tab4.png}
+    \end{figure}
+    \pause
+    \begin{figure}
+        \includegraphics[width=\textwidth]{media/tab5.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Summary}
+    \begin{itemize}
+        \item Bowtie's speed and small memory footprint are due chiefly to
+        its use of the Burrows-Wheeler index in combination with the
+        novel, quality-aware, backtracking algorithm introduced
+        here. Double indexing is used to avoid the performance penalty
+        of excessive backtracking.
+        \item Bowtie exhibits a large performance advantage over both Maq
+        and SOAP when mapping reads to the human genome.
+        \item  Unlike many other short-read aligners, Bowtie creates a per
+        manent index of the reference that may be re-used across
+        alignment runs. 
+    \end{itemize}
+\end{frame}
 \end{document}

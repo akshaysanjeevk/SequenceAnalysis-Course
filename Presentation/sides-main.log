@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  5 MAY 2025 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  6 MAY 2025 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -531,82 +531,170 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasethemes.sty)) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerthemedefault.sty (C:\Program Files\MiKTeX\tex/latex/beamer\beamerfontthemedefault.sty) (C:\Program Files\MiKTeX\tex/latex/beamer\beamercolorthemedefault.sty) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerinnerthemedefault.sty
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
-) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count336
+\mult@box=\box76
+\multicol@leftmargin=\dimen294
+\c@unbalance=\count337
+\c@collectmore=\count338
+\doublecol@number=\count339
+\multicoltolerance=\count340
+\multicolpretolerance=\count341
+\full@width=\dimen295
+\page@free=\dimen296
+\premulticols=\dimen297
+\postmulticols=\dimen298
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box77
+\last@line=\box78
+\mc@boxedresult=\box79
+\maxbalancingoverflow=\dimen299
+\mult@rightbox=\box80
+\mult@grightbox=\box81
+\mult@firstbox=\box82
+\mult@gfirstbox=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\c@minrows=\count342
+\c@columnbadness=\count343
+\c@finalcolumnbadness=\count344
+\last@try=\dimen300
+\multicolovershoot=\dimen301
+\multicolundershoot=\dimen302
+\mult@nat@firstbox=\box120
+\colbreak@box=\box121
+\mc@col@check@num=\count345
+) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box76
+\pgfnodeparttextbox=\box122
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count336
-\pgfplotmarksize=\dimen298
+\pgf@plot@mark@count=\count346
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikz@lastmovetox=\dimen303
-\tikz@lastmovetoy=\dimen304
-\tikzleveldistance=\dimen305
-\tikzsiblingdistance=\dimen306
-\tikz@figbox=\box77
-\tikz@figbox@bg=\box78
-\tikz@tempbox=\box79
-\tikz@tempbox@bg=\box80
-\tikztreelevel=\count337
-\tikznumberofchildren=\count338
-\tikznumberofcurrentchild=\count339
-\tikz@fig@count=\count340
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikz@lastmovetox=\dimen312
+\tikz@lastmovetoy=\dimen313
+\tikzleveldistance=\dimen314
+\tikzsiblingdistance=\dimen315
+\tikz@figbox=\box123
+\tikz@figbox@bg=\box124
+\tikz@tempbox=\box125
+\tikz@tempbox@bg=\box126
+\tikztreelevel=\count347
+\tikznumberofchildren=\count348
+\tikznumberofcurrentchild=\count349
+\tikz@fig@count=\count350
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count341
-\pgfmatrixcurrentcolumn=\count342
-\pgf@matrix@numberofcolumns=\count343
+\pgfmatrixcurrentrow=\count351
+\pgfmatrixcurrentcolumn=\count352
+\pgf@matrix@numberofcolumns=\count353
 )
-\tikz@expandcount=\count344
+\tikz@expandcount=\count354
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen316
+\pgfdecoratedremainingdistance=\dimen317
+\pgfdecoratedinputsegmentcompleteddistance=\dimen318
+\pgfdecoratedinputsegmentremainingdistance=\dimen319
+\pgf@decorate@distancetomove=\dimen320
+\pgf@decorate@repeatstate=\count355
+\pgfdecorationsegmentamplitude=\dimen321
+\pgfdecorationsegmentlength=\dimen322
+)
+\tikz@lib@dec@box=\box127
+) (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen323
+\pgfarrowlength=\dimen324
+\pgfarrowwidth=\dimen325
+\pgfarrowlinewidth=\dimen326
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count345
-\l__pdf_internal_box=\box81
+\l__color_backend_stack_int=\count356
+\l__pdf_internal_box=\box128
 ) (sides-main.aux)
 \openout1 = `sides-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -644,16 +732,16 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen307
-\scratchbox=\box82
-\nofMPsegments=\count347
-\nofMParguments=\count348
+\scratchcounter=\count357
+\scratchdimen=\dimen327
+\scratchbox=\box129
+\nofMPsegments=\count358
+\nofMParguments=\count359
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen308
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen328
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks49
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -661,7 +749,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 16.
  (sides-main.out) (sides-main.out)
 \@outlinefile=\write5
 \openout5 = `sides-main.out'.
@@ -683,17 +771,17 @@ Dictionary: translator-theorem-dictionary, Language: English
 {C:/Users/aksha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 57.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 61.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [4
@@ -738,6 +826,81 @@ Missing character: There is no ; in font nullfont!
 
 ] [18
 
+] [19
+
+] [20
+
+]
+<media/fig3.png, id=548, 508.90125pt x 611.28375pt>
+File: media/fig3.png Graphic file (type png)
+<use media/fig3.png>
+Package pdftex.def Info: media/fig3.png  used on input line 238.
+(pdftex.def)             Requested size: 127.22499pt x 152.82056pt.
+
+Overfull \hbox (35.0371pt too wide) in paragraph at lines 238--238
+ [] 
+ []
+
+[21
+
+ <./media/fig3.png>]
+<media/tab1.png, id=575, 1108.14pt x 309.40594pt>
+File: media/tab1.png Graphic file (type png)
+<use media/tab1.png>
+Package pdftex.def Info: media/tab1.png  used on input line 249.
+(pdftex.def)             Requested size: 307.28987pt x 85.79742pt.
+<media/tab2.png, id=576, 1103.62312pt x 241.65282pt>
+File: media/tab2.png Graphic file (type png)
+<use media/tab2.png>
+Package pdftex.def Info: media/tab2.png  used on input line 249.
+(pdftex.def)             Requested size: 307.28987pt x 67.28621pt.
+ [22
+
+ <./media/tab1.png> <./media/tab2.png>]
+File: media/tab1.png Graphic file (type png)
+<use media/tab1.png>
+Package pdftex.def Info: media/tab1.png  used on input line 249.
+(pdftex.def)             Requested size: 307.28987pt x 85.79742pt.
+File: media/tab2.png Graphic file (type png)
+<use media/tab2.png>
+Package pdftex.def Info: media/tab2.png  used on input line 249.
+(pdftex.def)             Requested size: 307.28987pt x 67.28621pt.
+ [23
+
+]
+<media/tab3.png, id=629, 1103.62312pt x 630.10406pt>
+File: media/tab3.png Graphic file (type png)
+<use media/tab3.png>
+Package pdftex.def Info: media/tab3.png  used on input line 255.
+(pdftex.def)             Requested size: 307.28987pt x 175.44724pt.
+ [24
+
+ <./media/tab3.png>]
+<media/tab4.png, id=656, 1097.60063pt x 181.42781pt>
+File: media/tab4.png Graphic file (type png)
+<use media/tab4.png>
+Package pdftex.def Info: media/tab4.png  used on input line 265.
+(pdftex.def)             Requested size: 307.28987pt x 50.79112pt.
+<media/tab5.png, id=657, 1099.85907pt x 207.02344pt>
+File: media/tab5.png Graphic file (type png)
+<use media/tab5.png>
+Package pdftex.def Info: media/tab5.png  used on input line 265.
+(pdftex.def)             Requested size: 307.28987pt x 57.8398pt.
+ [25
+
+ <./media/tab4.png> <./media/tab5.png>]
+File: media/tab4.png Graphic file (type png)
+<use media/tab4.png>
+Package pdftex.def Info: media/tab4.png  used on input line 265.
+(pdftex.def)             Requested size: 307.28987pt x 50.79112pt.
+File: media/tab5.png Graphic file (type png)
+<use media/tab5.png>
+Package pdftex.def Info: media/tab5.png  used on input line 265.
+(pdftex.def)             Requested size: 307.28987pt x 57.8398pt.
+ [26
+
+] [27
+
 ]
 \tf@nav=\write6
 \openout6 = `sides-main.nav'.
@@ -754,20 +917,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `sides-main.out' has not changed.
-(rerunfilecheck)             Checksum: 5B56F7C254569167BC97B8A641B52750;322.
+(rerunfilecheck)             Checksum: 14BE6ADE7E03891220BED4479C88B719;400.
  ) 
 Here is how much of TeX's memory you used:
- 24521 strings out of 474486
- 479359 string characters out of 5753570
+ 25601 strings out of 474486
+ 509734 string characters out of 5753570
  1952542 words of memory out of 5000000
- 46296 multiletter control sequences out of 15000+600000
- 565981 words of font info for 66 fonts, out of 8000000 for 9000
+ 47333 multiletter control sequences out of 15000+600000
+ 566580 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,14n,107p,480b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on sides-main.pdf (18 pages, 222592 bytes).
+ 101i,14n,107p,480b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on sides-main.pdf (27 pages, 559658 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
