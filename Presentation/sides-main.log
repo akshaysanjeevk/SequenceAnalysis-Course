@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  6 MAY 2025 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  9 MAY 2025 00:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,31 +670,31 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlinewidth=\dimen326
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Program Files\MiKTeX\tex/latex/beamer\beamercolorthemespruce.sty) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count356
 \l__pdf_internal_box=\box128
 ) (sides-main.aux)
 \openout1 = `sides-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -749,7 +749,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 19.
  (sides-main.out) (sides-main.out)
 \@outlinefile=\write5
 \openout5 = `sides-main.out'.
@@ -768,20 +768,20 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (sides-main.nav) [1
 
-{C:/Users/aksha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+{C:/Users/aksha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [2
+
+] [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 61.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 77.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [4
@@ -834,72 +834,86 @@ Missing character: There is no ; in font nullfont!
 <media/fig3.png, id=548, 508.90125pt x 611.28375pt>
 File: media/fig3.png Graphic file (type png)
 <use media/fig3.png>
-Package pdftex.def Info: media/fig3.png  used on input line 238.
+Package pdftex.def Info: media/fig3.png  used on input line 258.
 (pdftex.def)             Requested size: 127.22499pt x 152.82056pt.
 
-Overfull \hbox (35.0371pt too wide) in paragraph at lines 238--238
+Overfull \hbox (35.0371pt too wide) in paragraph at lines 258--258
  [] 
  []
 
 [21
 
- <./media/fig3.png>]
-<media/tab1.png, id=575, 1108.14pt x 309.40594pt>
+ <./media/fig3.png>] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+]
+<media/tab1.png, id=726, 1108.14pt x 309.40594pt>
 File: media/tab1.png Graphic file (type png)
 <use media/tab1.png>
-Package pdftex.def Info: media/tab1.png  used on input line 249.
+Package pdftex.def Info: media/tab1.png  used on input line 304.
 (pdftex.def)             Requested size: 307.28987pt x 85.79742pt.
-<media/tab2.png, id=576, 1103.62312pt x 241.65282pt>
+<media/tab2.png, id=727, 1103.62312pt x 241.65282pt>
 File: media/tab2.png Graphic file (type png)
 <use media/tab2.png>
-Package pdftex.def Info: media/tab2.png  used on input line 249.
+Package pdftex.def Info: media/tab2.png  used on input line 304.
 (pdftex.def)             Requested size: 307.28987pt x 67.28621pt.
- [22
+ [28
 
  <./media/tab1.png> <./media/tab2.png>]
 File: media/tab1.png Graphic file (type png)
 <use media/tab1.png>
-Package pdftex.def Info: media/tab1.png  used on input line 249.
+Package pdftex.def Info: media/tab1.png  used on input line 304.
 (pdftex.def)             Requested size: 307.28987pt x 85.79742pt.
 File: media/tab2.png Graphic file (type png)
 <use media/tab2.png>
-Package pdftex.def Info: media/tab2.png  used on input line 249.
+Package pdftex.def Info: media/tab2.png  used on input line 304.
 (pdftex.def)             Requested size: 307.28987pt x 67.28621pt.
- [23
+ [29
 
 ]
-<media/tab3.png, id=629, 1103.62312pt x 630.10406pt>
+<media/tab3.png, id=781, 1103.62312pt x 630.10406pt>
 File: media/tab3.png Graphic file (type png)
 <use media/tab3.png>
-Package pdftex.def Info: media/tab3.png  used on input line 255.
+Package pdftex.def Info: media/tab3.png  used on input line 310.
 (pdftex.def)             Requested size: 307.28987pt x 175.44724pt.
- [24
+ [30
 
  <./media/tab3.png>]
-<media/tab4.png, id=656, 1097.60063pt x 181.42781pt>
+<media/tab4.png, id=808, 1097.60063pt x 181.42781pt>
 File: media/tab4.png Graphic file (type png)
 <use media/tab4.png>
-Package pdftex.def Info: media/tab4.png  used on input line 265.
+Package pdftex.def Info: media/tab4.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 50.79112pt.
-<media/tab5.png, id=657, 1099.85907pt x 207.02344pt>
+<media/tab5.png, id=809, 1099.85907pt x 207.02344pt>
 File: media/tab5.png Graphic file (type png)
 <use media/tab5.png>
-Package pdftex.def Info: media/tab5.png  used on input line 265.
+Package pdftex.def Info: media/tab5.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 57.8398pt.
- [25
+ [31
 
  <./media/tab4.png> <./media/tab5.png>]
 File: media/tab4.png Graphic file (type png)
 <use media/tab4.png>
-Package pdftex.def Info: media/tab4.png  used on input line 265.
+Package pdftex.def Info: media/tab4.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 50.79112pt.
 File: media/tab5.png Graphic file (type png)
 <use media/tab5.png>
-Package pdftex.def Info: media/tab5.png  used on input line 265.
+Package pdftex.def Info: media/tab5.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 57.8398pt.
- [26
+ [32
 
-] [27
+] [33
+
+] [34
 
 ]
 \tf@nav=\write6
@@ -920,17 +934,17 @@ Package rerunfilecheck Info: File `sides-main.out' has not changed.
 (rerunfilecheck)             Checksum: 14BE6ADE7E03891220BED4479C88B719;400.
  ) 
 Here is how much of TeX's memory you used:
- 25601 strings out of 474486
- 509734 string characters out of 5753570
- 1952542 words of memory out of 5000000
- 47333 multiletter control sequences out of 15000+600000
- 566580 words of font info for 68 fonts, out of 8000000 for 9000
+ 25689 strings out of 474486
+ 512040 string characters out of 5753570
+ 1953542 words of memory out of 5000000
+ 47401 multiletter control sequences out of 15000+600000
+ 568879 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,14n,107p,480b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on sides-main.pdf (27 pages, 559658 bytes).
+ 101i,14n,107p,480b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on sides-main.pdf (34 pages, 626258 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 993 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
