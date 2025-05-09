@@ -10,7 +10,7 @@
 
 
 \title{\textbf{Ultrafast and memory-efficient alignment of short DNA sequences
-to the human genome}}
+to the human genome }}
 \subtitle{\textit{Ben Langmead, Cole Trapnell, \\Mihai Pop \& Steven L Salzberg}}
 
 \author{Akshay Sanjeev Keloth}
@@ -48,7 +48,7 @@ to the human genome}}
 
 
 \section{Background}
-\begin{frame}{Burrows- Wheeler Transform: Forward Transform}
+\begin{frame}{Burrows- Wheeler Transform\footnote{Burrows, Michael; Wheeler, David J. (May 10, 1994), A block sorting lossless data compression algorithm, Technical Report 124, Digital Equipment Corporation, archived from the original on January 5, 2003}: Forward Transform}
     Let $T=\texttt{BANANA}$. BWT$(T)$ will be:
     \[
     \begin{bmatrix}
@@ -131,7 +131,7 @@ to the human genome}}
     
 \end{frame}
 
-\begin{frame}{EXACTMATCH Algoritham}
+\begin{frame}{EXACTMATCH Algoritham using FM Inedx\footnote{ Paolo Ferragina and Giovanni Manzini (2000). "Opportunistic Data Structures with Applications". Proceedings of the 41st Annual Symposium on Foundations of Computer Science. p.390.}}
     We have, $T=\texttt{B}_1\texttt{A}_1\texttt{N}_1\texttt{A}_2\texttt{N}_2\texttt{A}_3$.\\
     Pattern to find, $P = \texttt{NAN}$\\
     \begin{center}
@@ -271,11 +271,11 @@ to the human genome}}
         of RAM, something SOAP could not do.}
         \only<3>{\item \textbf{Sensitivity:} Bowtie's default sensitivity is comparable to SOAP's 
         ($\approx$67\%) and slightly less than Maq's (Bowtie 71.9\% vs Maq 74.7\% 
-        in Table 1). The slight difference is mainly because Maq's algorithm is 
+        in \textit{Table 1}). The slight difference is mainly because Maq's algorithm is 
         more flexible, sometimes allowing three mismatches in the seed, and also 
         due to Bowtie's backtrack ceiling. Most of this can be manually fine-tuned.}
-        \only<4>{\item \textbf{Read Length:} Maq scales better overall to longer reads than Bowtie or SOAP. However, 
-        Bowtie in SOAP-like \texttt{-v 2} mode scales very well. Bowtie in its default 
+        \only<4>{\item \textbf{Read Length:} Maq scales better overall to longer reads than Bowtie 
+        or SOAP. But, Bowtie in SOAP-like \texttt{-v 2} mode scales very well. Bowtie in its default 
         Maq-like mode is slower for 76-bp reads compared to shorter reads but still 
         significantly faster than Maq.}
         \only<5>{\item \textbf{Parallel Performance:} Bowtie supports parallel processing. 
@@ -283,8 +283,8 @@ to the human genome}}
         to single thread. The memory footprint doesn't increase substantially with more
         threads as the index is shared(\textit{Table 4}).}
         \only<6>{\item \textbf{Index Building:} Unlike tools that build index-systems during alignment, Bowtie 
-        creates a permanent index that can be reused. 1
-        Eventhough indexing the human genome takes hours, depending on the memory target, including 
+        creates a permanent index that can be reused.
+        Even though indexing the human genome takes hours, depending on the memory target, including 
         index construction time, Bowtie still outperforms competing tools when aligning large 
         datasets(\textit{Table 5})}
     \end{itemize}
@@ -321,8 +321,8 @@ to the human genome}}
 
 \begin{frame}{Summary}
     \begin{itemize}
-        \item Bowtie's speed and small memory footprint are due chiefly to
-        its use of the Burrows-Wheeler index in combination with the
+        \item Bowtie's speed and small memory footprint are due to
+        its use of the Burrows-Wheeler-FM index in combination with the
         novel, quality-aware, backtracking algorithm introduced
         here. Double indexing is used to avoid the performance penalty
         of excessive backtracking.
@@ -331,6 +331,20 @@ to the human genome}}
         \item  Unlike many other short-read aligners, Bowtie creates a per
         manent index of the reference that may be re-used across
         alignment runs. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Bowtie 2}
+    \begin{itemize}
+        \item Bowtie 2 supports gapped alignments, enabling 
+        mapping read with in-dels or structural variations.
+        \item Bowtie 2 is optimized for aligning longer reads 
+        (100 bp or more), which are common in newer sequencing 
+        technologies. Bowtie 1 was designed for very short reads 
+        (25–50 bp) and struggled with longer ones.
+        \item Bowtie 2 allows for local alignments. This 
+        is particularly useful for RNA-seq or metagenomic data. 
+        Bowtie 1 required the entire read to align end-to-end.
     \end{itemize}
 \end{frame}
 

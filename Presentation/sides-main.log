@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  9 MAY 2025 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  9 MAY 2025 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -831,7 +831,7 @@ Missing character: There is no ; in font nullfont!
 ] [20
 
 ]
-<media/fig3.png, id=548, 508.90125pt x 611.28375pt>
+<media/fig3.png, id=550, 508.90125pt x 611.28375pt>
 File: media/fig3.png Graphic file (type png)
 <use media/fig3.png>
 Package pdftex.def Info: media/fig3.png  used on input line 258.
@@ -856,12 +856,12 @@ Overfull \hbox (35.0371pt too wide) in paragraph at lines 258--258
 ] [27
 
 ]
-<media/tab1.png, id=726, 1108.14pt x 309.40594pt>
+<media/tab1.png, id=728, 1108.14pt x 309.40594pt>
 File: media/tab1.png Graphic file (type png)
 <use media/tab1.png>
 Package pdftex.def Info: media/tab1.png  used on input line 304.
 (pdftex.def)             Requested size: 307.28987pt x 85.79742pt.
-<media/tab2.png, id=727, 1103.62312pt x 241.65282pt>
+<media/tab2.png, id=729, 1103.62312pt x 241.65282pt>
 File: media/tab2.png Graphic file (type png)
 <use media/tab2.png>
 Package pdftex.def Info: media/tab2.png  used on input line 304.
@@ -880,7 +880,7 @@ Package pdftex.def Info: media/tab2.png  used on input line 304.
  [29
 
 ]
-<media/tab3.png, id=781, 1103.62312pt x 630.10406pt>
+<media/tab3.png, id=782, 1103.62312pt x 630.10406pt>
 File: media/tab3.png Graphic file (type png)
 <use media/tab3.png>
 Package pdftex.def Info: media/tab3.png  used on input line 310.
@@ -888,12 +888,12 @@ Package pdftex.def Info: media/tab3.png  used on input line 310.
  [30
 
  <./media/tab3.png>]
-<media/tab4.png, id=808, 1097.60063pt x 181.42781pt>
+<media/tab4.png, id=809, 1097.60063pt x 181.42781pt>
 File: media/tab4.png Graphic file (type png)
 <use media/tab4.png>
 Package pdftex.def Info: media/tab4.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 50.79112pt.
-<media/tab5.png, id=809, 1099.85907pt x 207.02344pt>
+<media/tab5.png, id=810, 1099.85907pt x 207.02344pt>
 File: media/tab5.png Graphic file (type png)
 <use media/tab5.png>
 Package pdftex.def Info: media/tab5.png  used on input line 320.
@@ -915,6 +915,8 @@ Package pdftex.def Info: media/tab5.png  used on input line 320.
 
 ] [34
 
+] [35
+
 ]
 \tf@nav=\write6
 \openout6 = `sides-main.nav'.
@@ -934,17 +936,17 @@ Package rerunfilecheck Info: File `sides-main.out' has not changed.
 (rerunfilecheck)             Checksum: 14BE6ADE7E03891220BED4479C88B719;400.
  ) 
 Here is how much of TeX's memory you used:
- 25689 strings out of 474486
- 512040 string characters out of 5753570
- 1953542 words of memory out of 5000000
- 47401 multiletter control sequences out of 15000+600000
- 568879 words of font info for 78 fonts, out of 8000000 for 9000
+ 25735 strings out of 474486
+ 512863 string characters out of 5753570
+ 1954542 words of memory out of 5000000
+ 47438 multiletter control sequences out of 15000+600000
+ 572275 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,14n,107p,480b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on sides-main.pdf (34 pages, 626258 bytes).
+ <C:\Users\aksha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on sides-main.pdf (35 pages, 650079 bytes).
 PDF statistics:
- 993 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 1023 PDF objects out of 1200 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
