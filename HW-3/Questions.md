@@ -35,7 +35,7 @@ C-GCCATT
 
 then the concatenated output with gaps removed will be
 1
-ATAACACGATT
+ATCAACACGATT
 2
 ATGACACGATT
 
@@ -43,12 +43,12 @@ ATGACACGATT
 these alignments.  Standard programs these days are PhyML, MrBayes,
 BioNJ (for ML, Bayesian, Neighbour-joining respectively).
 
-3b. Also use UPGMA for which I previously sent you an implementation.
+4. Also use UPGMA for which I previously sent you an implementation.
 
-4. The above programs will probably output a tree in "Newick" format.
+5. The above programs will probably output a tree in "Newick" format.
 Use a tree-drawing program to convert those to a visual tree.
 
-5. Document whatever you did and write it up.
+6. Document whatever you did and write it up.
 
 You may like to look at http://www.phylogeny.fr/ which provides a web
 interface to several programs, though I would recommend using it only
